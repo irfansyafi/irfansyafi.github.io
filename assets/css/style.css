@@ -614,7 +614,7 @@ img{
 
 /*For small devices*/
 
-/* @media screen and (max-width : 350px){
+ @media screen and (max-width : 350px){
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -673,12 +673,12 @@ img{
     text-align: center;
   }
 
-} */
+} 
 
 
 /*===== For medium devices ====*/
 
-/* @media screen and (min-width:568px){
+ @media screen and (min-width:568px){
   .home__content{
     grid-template-columns: max-content 1fr 1fr;
   }
@@ -706,9 +706,9 @@ img{
     grid-template-columns: .6fr;
     justify-content: center;
   }
-} */
+} 
 
-/* @media screen and (min-width:768px){
+ @media screen and (min-width:768px){
   .container{
     margin-left:auto;
     margin-right: auto;
@@ -739,7 +739,7 @@ img{
 
 
 
-} */
+} 
 
 /* For Large Devices */
 
