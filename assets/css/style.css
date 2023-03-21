@@ -96,8 +96,8 @@
 
 *{
   box-sizing: border-box;
-  padding:0;
-  margin:0;
+  margin: 0;
+  padding: 0;
 }
 
 html{
@@ -241,7 +241,6 @@ img{
 
 .nav__link:hover{
   color: var(--first-color);
-
 }
 
 .nav__icon{
@@ -614,7 +613,7 @@ img{
 
 /*For small devices*/
 
- @media screen and (max-width : 350px){
+ @media screen and (max-width : 350px){  /*Mobile breakpoint : 320px - 480px*/
   .container{
     margin-left: var(--mb-1);
     margin-right: var(--mb-1);
@@ -647,7 +646,7 @@ img{
     justify-content: center;
   }
   .services__modal{
-    padding: 0 .5rem;
+    padding: 0 0.5rem;
   }
 
   .project__img{
@@ -662,7 +661,7 @@ img{
   }
 
   .testimonial__img{
-    margin-right: 0;
+    margin-right: .5;
     margin-bottom: var(--mb-0-25);
 
   }
