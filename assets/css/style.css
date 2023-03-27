@@ -477,7 +477,7 @@ img{
 .skills__titles{
   display:flex;
   justify-content: space-between;
-  margin-bottom: var(--mb-0-5);
+  margin-bottom: var(--mb-1);
 }
 
 
@@ -497,6 +497,7 @@ img{
 }
 
 .skills__bar{
+  display: inline-block;
   background-color: var(--first-color-lighter);
 }
 
@@ -520,12 +521,12 @@ img{
 
 .skills__close .skills__list{
   height: 0;
-  overflow:hidden;
+  overflow: hidden;
 }
 
 .skills__open .skills__list{
   height: max-content;
-  margin-bottom: var(--mb-2-5);
+  margin-bottom: var(--mb-1-5);
 }
 
 .skills__open .skills__arrow{
@@ -712,7 +713,7 @@ img{
 
 .footer__bg{
   background-color: var(--first-color-second);
-  padding: 2rem 0 3rem;
+  padding: 2rem 1rem 3rem;
 }
 
 .footer__title{
