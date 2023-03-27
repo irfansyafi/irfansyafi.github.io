@@ -486,6 +486,10 @@ img{
   font-weight: var(--font-medium);
 }
 
+.skills__description{
+  font-size: var(--small-font-size);
+}
+
 .skills__bar,
 .skills__percentage{
   height: 5px;
@@ -502,7 +506,11 @@ img{
 }
 
 .skills__python{
-  width: 90%;
+  width: 70%;
+}
+
+.skills__sql{
+  width: 70%;
 }
 
 .skills__list{
@@ -609,7 +617,7 @@ img{
 }
 
 .portfolio__content{
-  padding: 0 1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 .portfolio__img{
