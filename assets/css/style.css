@@ -194,7 +194,6 @@ img{
 .nav__toggle{
   color: var(--title-color);
   font-weight: var(--font-medium);
-  margin: var(--header-height) .5rem .5rem .5rem;
 }
 
 .nav__logo:hover{
