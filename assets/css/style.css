@@ -514,6 +514,10 @@ img{
   width: 70%;
 }
 
+.skills__powerbi{
+  width: 55%;
+}
+
 .skills__list{
   row-gap: 1.5rem;
   padding-left: 2.7rem;
@@ -606,6 +610,11 @@ img{
   color: var(--first-color);
 }
 
+.cert__img{
+  width: 265px;
+  border-radius: .5rem;
+  justify-self: center;
+}
 
 /*================= SERVICES =====================*/
 
